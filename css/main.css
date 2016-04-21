@@ -1,0 +1,12 @@
+.navBar ul li {
+text-decoration: none;
+display: inline-block;
+border: 1px solid teal;
+padding: 15px;
+font-size: 2em;
+margin-top: 5px;
+}
+
+li a{
+text-decoration: none;
+}
