@@ -1,11 +1,14 @@
 $('document').ready(function(){
-    function getCalendar(userInput){
-        var myCalendar = {
-            url :'https://calendar.google.com/calendar/render?tab=mc#main_7%7Cmonth-3+23644+23682+23649',
-            dataType: 'json',
-            data:{
-                key:'1041767674591-4lbrsrsii54h0lgak6a28lae4eo4e24e.apps.googleusercontent.com'
-            }
-        };
-    }
+    var options = {
+    access_token: 'teM2UlsqaNI4rP8C_SHlmDCsP7QlXAYP',
+    tzid: 'Etc/UTC',
+    url:'https://api.cronofy.com',
+    dataType: 'json'
+};
+
+// cronofy.readEvents(options)
+    // .then(function (response) {
+        // var events = response.events;
+        // console.log(events);
+    // });
 });
