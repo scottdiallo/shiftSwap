@@ -10,3 +10,7 @@ margin-top: 5px;
 li a{
 text-decoration: none;
 }
+
+a:visited {
+    color: black;
+}
